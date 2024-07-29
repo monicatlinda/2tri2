@@ -9,11 +9,13 @@
 }
 
 .swiper-slide img {
-    width: 100%;
+   width: 400px;
 }
 
 
-.swiper-button-prev,
+.swiper-button-prev{
+    display: none;
+}
 .swiper-button-next {
     display: none;
 }
@@ -30,13 +32,14 @@
     border-radius: 10px;
     margin: 1em;
     padding: 1em;
+    width: 20px;
 }
 
 .card__descrição {
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.5em;
-
+    font-weight: 20px;
 }
 
 .card__botões {
@@ -52,17 +55,19 @@
 .descrição__titulo {
     color: var(--laranja);
     font-weight: 700;
+    font-size: 25px;
 }
 
 .descrição__titulo-livro {
     color: var(--azul);
-    font-size: 18px;
+    font-size: 26px;
     font-weight: 700;
     margin: 0.5em 0;
 }
 
 .descrição__texto {
-    font-size: 14px;
+    font-size: 25px;
+
 }
 
 .botões__ancora {
@@ -75,4 +80,11 @@
 
 .botões__item {
     margin: 0 0.5em;
+}
+.descrição__imagem{
+    width: 10%;
+
+}
+.carrossel{
+    width: 100;
 }
