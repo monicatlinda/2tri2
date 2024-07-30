@@ -8,7 +8,7 @@
 }
 
 .banner__titulo {
-    font-size: 5px;
+    font-size: 20px;
     font-weight: 500;
 }
 
@@ -30,7 +30,7 @@
 
 .banner__pesquisa::placeholder {
     font-family: var(--fonte-principal);
-    font-size: 14px;
+    font-size: 4px;
     font-weight: 400;
     text-align: center;
     color: var(--branco);
