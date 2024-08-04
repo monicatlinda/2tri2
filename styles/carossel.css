@@ -78,7 +78,7 @@
 
 @media screen and (min-width: 1024px) {
     .carrossel__titulo {
-        font-size: 26px;
+        font-size: 10px;
     }
 
     .swiper-pagination {
