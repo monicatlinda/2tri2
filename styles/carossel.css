@@ -86,7 +86,7 @@
     }
 
     .swiper{
-        width: 40%;
+        width: 100%;
     }
 
     .swiper-button-prev,
@@ -135,7 +135,7 @@
     }
 
     .descrição_imagem{
-        width: 400px;
+        width: 500px;
     }
 
 }
